@@ -1,0 +1,74 @@
+:root {
+}
+
+.property {
+    font-size: 18px;
+}
+
+.button {
+    background-color: rgb(255, 42, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+}
+
+.section {
+    background-color: var(--unity-colors-default-background);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(255, 42, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 1.1 1.1;
+}
+
+.property .unity-toggle__checkmark {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.unity-label {
+    color: rgb(255, 185, 0);
+}
+
+
+
+.unity-base-text-field__input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

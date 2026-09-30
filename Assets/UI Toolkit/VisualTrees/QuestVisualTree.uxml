@@ -1,0 +1,23 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/questEditor.uss?fileID=7433441132597879392&amp;guid=1ff52287d8946974f969f69b107fdcc9&amp;type=3#questEditor"/>
+    <ui:VisualElement name="top-buttons" class="section" style="flex-grow: 0;">
+        <ui:Button text="Случайное задание" name="generate-quest-button" class="button"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="description" class="section" style="flex-grow: 1;">
+        <ui:Label text="Описание" name="description-label" style="font-size: 24px; letter-spacing: 5px; margin-top: 0; margin-bottom: 10px;"/>
+        <uie:PropertyField name="level" binding-path="level" class="property"/>
+        <uie:PropertyField name="description" binding-path="description" class="property"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="reward" class="section" style="flex-grow: 1;">
+        <ui:Label text="Награда" name="reward-label" style="font-size: 24px; letter-spacing: 5px; margin-top: 10px; margin-bottom: 10px;"/>
+        <uie:PropertyField name="gold" binding-path="gold" class="property"/>
+        <uie:PropertyField name="experience" binding-path="experience" class="property"/>
+        <uie:PropertyField name="items-toggle" binding-path="haveItems" class="property"/>
+        <ui:VisualElement name="items-container" class="section">
+            <ui:VisualElement name="item-buttons">
+                <ui:Button text="Случайные предметы" name="generate-items-button" class="button"/>
+            </ui:VisualElement>
+            <uie:PropertyField binding-path="items" name="items" class="list-property" style="font-size: 18px; color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
